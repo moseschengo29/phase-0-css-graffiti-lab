@@ -1,1 +1,24 @@
 /* write your override styles here */
+#wall{
+    width: 800px;
+    height: 400px;
+    border-bottom: 40px solid blue ;
+}
+.tag-1 .tag-2 {
+    display: inline;
+}
+
+.tag-1{
+    z-index: auto;
+}
+
+.tag-2{
+    z-index: 7;
+}
+
+.tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7{
+    top: auto;
+    bottom: auto;
+    width: 800px;
+    height: 440px;
+}
